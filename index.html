@@ -3,68 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oxygen OS</title>
+    <meta name="description" content="LumOS - A lightweight OS built with Rust.">
+    <title>LumOS</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="LumOS Logo">
+        </div>
+        <h1>Welcome to LumOS</h1>
         <nav>
-            <div class="logo">
-                <h1>LumOS</h1>
-            </div>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#get-started">Get Started</a></li>
-                <li><a href="https://github.com/Ruben2163/Oxygen-OS" class="btn">GitHub</a></li>
+                <li><a href="#contributing">Contribute</a></li>
+                <li><a href="#warnings">Warnings</a></li>
             </ul>
         </nav>
-        <div class="header-content">
-            <h1>Welcome to LumOS</h1>
-            <p>A lightweight, custom OS designed for speed and efficiency. Built by the community, for the community.</p>
-            <a href="#get-started" class="btn btn-primary">Get Started</a>
-        </div>
     </header>
     <main>
-        <section id="about" class="section">
+        <section id="about">
             <h2>What is LumOS?</h2>
-            <p>
-                LumOS is a pure, bloat-free, lightweight operating system written in Rust. Designed to deliver top-notch performance, it offers a customizable and efficient user experience while maintaining key features. Unlike traditional systems, it is fully custom and doesn't rely on Linux. Explore the repository for the source code, documentation, and community contributions.
-            </p>
+            <p>LumOS is a pure, lightweight operating system written in <strong>Rust</strong>, designed for speed, efficiency, and a fully customizable experience. Unlike Linux-based systems, LumOS offers a completely unique architecture.</p>
         </section>
-        <section id="features" class="section">
-            <h2>Features</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <h3>Community-Made</h3>
-                    <p>Built and improved by a passionate community of developers.</p>
-                </div>
-                <div class="feature">
-                    <h3>Optimized Performance</h3>
-                    <p>Experience blazing fast speeds and lightweight performance.</p>
-                </div>
-                <div class="feature">
-                    <h3>Rust Kernel</h3>
-                    <p>Powered by a custom-made kernel written in Rust for efficiency.</p>
-                </div>
-                <div class="feature">
-                    <h3>Open Source</h3>
-                    <p>Contributions are encouraged through pull requests and issue reports.</p>
-                </div>
-            </div>
+
+        <section id="development">
+            <h2>When Will Development Start?</h2>
+            <p>Development begins in <strong>January 2025</strong>. You can contribute to LumOS before and during this time to help shape its future.</p>
         </section>
-        <section id="get-started" class="section">
-            <h2>Get Started</h2>
-            <ol>
-                <li>Clone the repository: <code>git clone https://github.com/Ruben2163/Oxygen-OS.git</code></li>
-                <li>Follow the setup instructions in the <code>README.md</code>.</li>
-                <li>Start contributing by reporting issues or submitting pull requests.</li>
-            </ol>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Custom Rust Bootloader</li>
+                <li>Lightweight Rust Kernel</li>
+                <li>Command-line Interface</li>
+            </ul>
+            <p>A GUI might be added in the future, but initially, it will be command-line based.</p>
+        </section>
+
+        <section id="warnings">
+            <h2>Warnings</h2>
+            <p><strong>For Virtual Machine Use Only:</strong> LumOS is intended for use in VirtualBox or VMware.</p>
+            <p><strong>Security Limitations:</strong> We are not security experts, so use LumOS at your own risk.</p>
+        </section>
+
+        <section id="contributing">
+            <h2>Contributing</h2>
+            <p>LumOS is a massive project. We welcome contributions of all sizes, from small fixes to major features. Every bit of help is appreciated!</p>
+            <p><strong>Why Help?</strong></p>
+            <ul>
+                <li>Accelerate new releases.</li>
+                <li>Shape features with your ideas.</li>
+                <li>Be part of a groundbreaking OS project.</li>
+            </ul>
+        </section>
+
+        <section id="why-rust">
+            <h2>Why Rust?</h2>
+            <p>Rust is a fast, low-level language that simplifies development compared to assembly. It enables:</p>
+            <ul>
+                <li>Faster, more secure programming.</li>
+                <li>Greater collaboration within the community.</li>
+            </ul>
+        </section>
+
+        <section id="goals">
+            <h2>Our Goals</h2>
+            <p>We aim to:</p>
+            <ul>
+                <li>Learn Rust and system-level programming.</li>
+                <li>Break away from the "Big 3" operating systems.</li>
+                <li>Create something new and innovative.</li>
+            </ul>
+        </section>
+
+        <section id="who">
+            <h2>Who Should Use LumOS?</h2>
+            <p>We recommend LumOS for developers and contributors who enjoy exploring unique, early-stage projects.</p>
+        </section>
+
+        <section id="features-table">
+            <h2>Features at a Glance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bootloader</td>
+                        <td>✅ Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Kernel</td>
+                        <td>✅ Completed</td>
+                    </tr>
+                    <tr>
+                        <td>GUI (Optional)</td>
+                        <td>⏳ Under Consideration</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>
-        <p>© 2025 LumOS | <a href="https://github.com/Ruben2163/LumOS">GitHub Repository</a></p>
+        <p>&copy; 2024 LumOS. Built with Rust and passion.</p>
     </footer>
 </body>
 </html>
